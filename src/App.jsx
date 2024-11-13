@@ -10,6 +10,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<Search/>}/>
+            <Route path="/" element={<Search/>}/>
             <Route path="/character" element={<Char/>}/>
             <Route path="/search-result" element={<Result/>}/>
           </Routes>
