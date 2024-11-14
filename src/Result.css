@@ -1,7 +1,35 @@
-.res {
-    background: black;
+p {
+    color: white;
 }
 
-h1 {
-    color: red;
+.return {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 225px;
+}
+
+.charList {
+    width:1500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 350px;
+}
+
+.charList a {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: auto 50px 125px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.charList p {
+    font-size: 26px;
+    color: white;
+    margin-top: 220px;
 }
